@@ -1,43 +1,225 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-    <link href="styles/style.css" rel="stylesheet" />
-    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans"
-        rel="stylesheet"/> Make active when I get back to the internet.-->
-  </head>
+<html lang="en">
 
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijay Beauty Palour</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
 
-    <h1>Meet Mimmie</h1>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/hero-image.jpg" alt="Mijay Beauty Palour Logo">
+            <p class="tagline">Expert Beauty Services for Every Occasion</p>
+        </div>
+        
+        <nav aria-label="Main Navigation">
+            <!--Navigation menu-->
+            <button class="hamburger" aria-label="Toggle Navigation Menu">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a>
+                    <ul>
+                        <li><a href="#">Wig Making</a></li>
+                        <li><a href="#">Hair Styling</a></li>
+                        <li><a href="#">Revamping</a></li>
+                        <li><a href="#">Nail Care</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About</a>
+                    <ul>
+                        <li><a href="">Our Story</a></li>
+                        <li><a href="">Our Team</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <!--Hero section-->
+        <section class="hero">
+            <div class="background-image"></div>
+            <div class="hero-content">
+                <h1>Welcome to Mijay Beauty Parlour</h1>
+                <p>Experience the art of beauty with our expert stylists.</p>
+                <button class="cta-btn">Book Your Appointment Today!</button>
+            </div>
+            <div class="hero-image">
+                <img src="./image/hero-image.jpg" alt="Beauty Parlour Hero Image">
+            </div>
+        </section>
+
+
+        <!--About section-->
+        <section class="about">
+            <h2>About Us</h2>
+            <p>
+                Welcome to Mijay Beauty Parlour! We're a team of passionate beauty
+                professionals dedicated to providing exceptional service and 
+                unparalleled expertise.
+            </p>
+            <div class="accordion">
+                <div class="title">Our Story</div>
+                <div class="accordion-content">
+                    <p>
+                        Mijay Beauty Parlour was founded in 2010 by Miss Gladys Appiah
+                        a renowned stylist with the vision to create a welcoming and 
+                        innovative space for beauty enthusiasts.
+                    </p>
+                </div>
+                <div class="title">Our Services</div>
+                <div class="accordion-content">
+                    <ul>
+                        <li>Wig Making</li>
+                        <li>Nail Care</li>
+                        <li>Hair Styling</li>
+                        <li>Revamping</li>
+                    </ul>
+                </div>
+                <div class="title">Meet the Team</div>
+                <div class="accordion-content">
+                    <div class="team-member">
+                        <img src="team-member-1.jpg" alt="Team Member 1">
+                        <h3>Team Member 1</h3>
+                        <p>Brief bio</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="team-member-2.jpg" alt="Team Member 2">
+                        <h3>Team Member 2</h3>
+                        <p>Brief bio</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="team-member-3.jpg" alt="Team Member 3">
+                        <h3>Team Member 3</h3>
+                        <p>Brief bio</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="team-member-4.jpg" alt="Team Member 4">
+                        <h3>Team Member 4</h3>
+                        <p>Brief bio</p>
+                    </div>
+                    <!---Add more team members-->
+                </div>
+            </div>
+        </section>
+
+
+        <!--Services section-->
+        <section class="services">
+            <!--Service cards-->
+            <div class="service-card">
+                <h2>Wig Making</h2>
+                <p>Our expert stylists craft custom wigs to suit your style.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service-card">
+                <h2>Hair Styling</h2>
+                <p>From cuts to colors, our team delivers exceptional hair styling services.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service-card">
+                <h2>Nails</h2>
+                <p>Get salon-quality nail services, from manicures to gel extensions.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service-card">
+                <h2>Revamping</h2>
+                <p>Breathe new life into your look with our revamping services.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+
+      
+
+        <!--Gallery section-->
+        <section class="gallery">
+            <!--Gallery Images-->
+
+            <div class="gallery-container">
+                <div class="gallery-slider">
+                    <div class="gallery-item">
+                        <img src="./image/hair3.png" alt="Image 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair5.png" alt="Image 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair9.png" alt="Image 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair11.png" alt="Image 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair6.png" alt="Image 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair7.png" alt="Image 6">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair1.png" alt="Image 7">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair10.jpg" alt="Image 8">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./image/hair6.png" alt="Image 9">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="booking">
+            <h2>Book Your Appointment</h2>
+            <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+            <label for="service">Service:</label>
+            <select name="service" id="service" required>
+                <option value="wig-making">Wig Making</option>
+                <option value="hair-styling">Hair Styling</option>
+                <option value="nails">Nails</option>
+                <option value="revamping">Revamping</option>
+            </select>
+            <br><br>
+            <button type="submit">Book Now</button>
+            </form>
+        </section>
+  
+    </main>
+
+
+    <footer class="footer">
+        <!--Contact Information-->
+        <div class="footer-container">
+            <p>
+                Designed and built with a touch of &#9749; by Anoff Akonnor.
+            </p>
+            <p>
+                &copy; 2024 Mijay Beauty Parlour. All rights reserved.
+            </p>
+        </div>
+    </footer>
     
-    <img src="images/mijaylogo.jpg" alt="Mijay's Logo" />
 
-    <p>Founder of Mijay's Beauty Parlour. Mimmie is into</p>
 
-    <ul>
-        <li>Wig making</li>
-        <li>Frontal installation</li>
-        <li>Revamping</li>
-    </ul>
-
-    <p>She works day and night to make sure that her final
-        products are to the specification of her clients. Mimmie is 
-        hardworking and diligent, with a little bit of craziness
-        undertone.
-    </p>
-
-    <p>Her <a href="https://www.instagram.com/mimmie">instagram</a> 
-        page is filled with pictures of satisfied customers. 
-        Take a look.
-    </p>
-
-    <button>Change User</button>
-
-    <script src="scripts/main.js"></script>
-  </body>
+    <script src="./js/script.js"></script>
+</body>
 
 </html>
