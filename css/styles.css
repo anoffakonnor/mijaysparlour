@@ -411,7 +411,7 @@ service-card p {
 
 .booking h2 {
     text-align: center;
-    color: #333;
+    color: #ffa07a;
   }
   
 
@@ -478,12 +478,14 @@ service-card p {
 
 .booking button[type="submit"] {
     width: 100%;
-    padding: 10px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
+    padding: 15px 30px;
+    font-weight: bold;
   }
   
 
@@ -577,6 +579,14 @@ accordion .title:hover {
 
 .accordion .accordion-content.active {
     display: block;
+}
+
+.accordion .accordion-content .team-member img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
 }
 
 /*------------Gallery Section--------------------*/
